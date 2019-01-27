@@ -1,0 +1,11 @@
+class CTGUI
+!!!133514.java!!!	paintComponent(inout g : Graphics) : void
+		
+			super.paintComponent(g);
+			g.setColor(Color.RED);
+			Circle outerCirc = new Circle(0,0,200);
+			Triangle innerRect = new Triangle(0,0,0,0,0,0,10);
+			ComposedShape tryComp = new ComposedShape(outerCirc, innerRect); 
+			tryComp.optimalFit(); 
+			tryComp.draw(g); 
+		

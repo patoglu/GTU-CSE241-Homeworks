@@ -1,0 +1,12 @@
+class Point2D
+!!!136074.java!!!	Point2D(in theXCoordinate : int, in theYCoordinate : int)
+			setTwoDx(theXCoordinate);
+			setTwoDy(theYCoordinate);
+!!!136202.java!!!	getTwoDx() : int
+			return xCoordinate;
+!!!136330.java!!!	setTwoDx(in xCoordinate : int) : void
+			this.xCoordinate = xCoordinate;
+!!!136458.java!!!	getTwoDy() : int
+			return yCoordinate;
+!!!136586.java!!!	setTwoDy(in yCoordinate : int) : void
+			this.yCoordinate = yCoordinate;

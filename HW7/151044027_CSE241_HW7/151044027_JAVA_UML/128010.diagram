@@ -1,0 +1,207 @@
+format 221
+
+classcanvas 128010 class_ref 128010 // CCGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 40.5 1776 2000
+end
+classcanvas 128138 class_ref 128266 // Circle
+  classdiagramsettings member_max_width 0 end
+  xyz 563.9 902.45 2000
+end
+classcanvas 128266 class_ref 128394 // Shape
+  classdiagramsettings member_max_width 0 end
+  xyz 584.9 157.35 2006
+end
+classcanvas 128522 class_ref 128522 // Comparable
+  classdiagramsettings member_max_width 0 end
+  xyz 581.9 41.5 2012
+end
+classcanvas 128778 class_ref 128650 // ComposedShape
+  classdiagramsettings member_max_width 0 end
+  xyz 265.3 465.15 2012
+end
+classcanvas 129418 class_ref 128778 // Rectangle
+  classdiagramsettings member_max_width 0 end
+  xyz 456.1 393.05 3005
+end
+classcanvas 129930 class_ref 128906 // Triangle
+  classdiagramsettings member_max_width 0 end
+  xyz 77.65 393.55 3005
+end
+classcanvas 130442 class_ref 129034 // CRGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 1378.5 1776 3010
+end
+classcanvas 130570 class_ref 129162 // CTGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 486.5 1776 3011
+end
+classcanvas 130698 class_ref 129290 // MainMenu
+  classdiagramsettings member_max_width 0 end
+  xyz 959.8 40.5 3016
+end
+classcanvas 130826 class_ref 129418 // Polygon
+  classdiagramsettings member_max_width 0 end
+  xyz 787.4 396.3 3011
+end
+classcanvas 131082 class_ref 129418 // Polygon
+  classdiagramsettings member_max_width 0 end
+  xyz 671.9 396.3 3021
+end
+classcanvas 131338 class_ref 129546 // PolygonDyn
+  classdiagramsettings member_max_width 0 end
+  xyz 614.4 1389.5 3027
+end
+classcanvas 131594 class_ref 129802 // PolygonVect
+  classdiagramsettings member_max_width 0 end
+  xyz 763.55 1388.25 3032
+end
+classcanvas 131850 class_ref 130058 // RCGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 1155.5 1776 3037
+end
+classcanvas 131978 class_ref 130186 // RRGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 709.5 1776 3037
+end
+classcanvas 132106 class_ref 130314 // RTGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 1626.8 40.5 2000
+end
+classcanvas 132234 class_ref 130442 // StaticMethods
+  classdiagramsettings member_max_width 0 end
+  xyz 1196.8 40.5 2005
+end
+classcanvas 132362 class_ref 130570 // TCGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 932.5 1776 3015
+end
+classcanvas 132490 class_ref 130698 // TRGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 263.5 1776 3020
+end
+classcanvas 132618 class_ref 130826 // TTGUI
+  classdiagramsettings member_max_width 0 end
+  xyz 1403.8 40.5 3025
+end
+relationcanvas 128394 relation_ref 128266 // <realization>
+  from ref 128138 z 2007 to ref 128266
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128650 relation_ref 128138 // <generalisation>
+  from ref 128266 z 2013 to ref 128522
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128906 relation_ref 128394 // <realization>
+  geometry VHV unfixed
+  from ref 128778 z 2013 to point 338 356
+  line 134538 z 2013 to point 630 356
+  line 134666 z 2013 to ref 128266
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129034 relation_ref 129034 // <unidirectional association>
+  geometry VH unfixed
+  decenter_begin 648
+  decenter_end 791
+  from ref 128778 z 2013 to point 360 1223
+  line 133514 z 2013 to ref 128138
+  role_a_pos 445 1200 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129162 relation_ref 129162 // <unidirectional association>
+  geometry VH unfixed
+  decenter_begin 907
+  decenter_end 695
+  from ref 128778 z 2013 to point 399 1184
+  line 133898 z 2013 to ref 128138
+  role_a_pos 447 1161 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129290 relation_ref 129290 // <unidirectional association>
+  decenter_begin 977
+  decenter_end 476
+  from ref 128778 z 2013 to point 40 1133
+  line 133002 z 2013 to point 40 233
+  line 133130 z 2013 to ref 128266
+  role_a_pos 444 207 3000 no_role_b
+  multiplicity_a_pos 563 241 3000 no_multiplicity_b
+end
+relationcanvas 129546 relation_ref 130442 // <realization>
+  geometry VHV unfixed
+  from ref 129418 z 3006 to point 523 356
+  line 133642 z 3006 to point 630 356
+  line 133770 z 3006 to ref 128266
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129674 relation_ref 128522 // <unidirectional association>
+  decenter_begin 19
+  decenter_end 180
+  from ref 128778 z 3006 to ref 129418
+  role_a_pos 309 453 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129802 relation_ref 128650 // <unidirectional association>
+  decenter_begin 75
+  decenter_end 261
+  from ref 128778 z 3006 to ref 129418
+  role_a_pos 311 491 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130058 relation_ref 131082 // <realization>
+  geometry VHV unfixed
+  decenter_begin 529
+  from ref 129930 z 3006 to point 153 356
+  line 133258 z 3006 to point 630 356
+  line 133386 z 3006 to ref 128266
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130186 relation_ref 128778 // <unidirectional association>
+  decenter_begin 75
+  decenter_end 175
+  from ref 128778 z 3006 to ref 129930
+  role_a_pos 235 491 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130314 relation_ref 128906 // <unidirectional association>
+  decenter_begin 19
+  decenter_end 122
+  from ref 128778 z 3006 to ref 129930
+  role_a_pos 235 453 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130954 relation_ref 129674 // <realization>
+  geometry VHV unfixed
+  from ref 130826 z 3012 to point 823 356
+  line 134282 z 3012 to point 630 356
+  line 134410 z 3012 to ref 128266
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131210 relation_ref 129674 // <realization>
+  geometry VHV unfixed
+  from ref 131082 z 3022 to point 707 356
+  line 132746 z 3022 to point 630 356
+  line 132874 z 3022 to ref 128266
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131466 relation_ref 129802 // <generalisation>
+  geometry VHV unfixed
+  from ref 131338 z 3028 to point 669 1349
+  line 134026 z 3028 to point 823 1349
+  line 134154 z 3028 to ref 130826
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 131722 relation_ref 130058 // <generalisation>
+  decenter_begin 528
+  from ref 131594 z 3033 to ref 130826
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

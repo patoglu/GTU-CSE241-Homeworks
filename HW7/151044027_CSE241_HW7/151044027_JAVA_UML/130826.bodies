@@ -1,0 +1,10 @@
+class TTGUI
+!!!144394.java!!!	paintComponent(inout g : Graphics) : void
+		super.paintComponent(g);
+		g.setColor(Color.RED);
+		Triangle outerTri = new Triangle(0,0,0,0,0,0,600);
+		Triangle innerTri = new Triangle(0,0,0,0,0,0,20);
+		ComposedShape tryComp = new ComposedShape(outerTri, innerTri);
+		tryComp.optimalFit();
+		tryComp.draw(g);
+		

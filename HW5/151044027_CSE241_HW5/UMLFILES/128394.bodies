@@ -1,0 +1,166 @@
+class Rectangle
+!!!139018.cpp!!!	Rectangle()
+		setXCoordinate(0);
+		setYCoordinate(0);
+		setWidth(20);
+		setHeight(10);
+		calculatedPerimeter = (getWidth() + getHeight() * 2);
+		calculatedArea = (getWidth() * getHeight());
+
+!!!139146.cpp!!!	Rectangle(in xLocation : double, in yLocation : double, in width : double, in height : double)
+		setXCoordinate(xLocation); //4 parameter constructor that initializes all variables.
+		setYCoordinate(yLocation);
+		setWidth(width);
+		setHeight(height);
+		calculatedPerimeter = (getWidth() + getHeight() * 2);
+		calculatedArea = (getWidth() * getHeight());
+!!!139274.cpp!!!	getPerimeter(in  : void) : double
+		return 2 * (width + height);
+!!!139402.cpp!!!	getArea(in  : void) : double
+		return width * height;
+!!!140042.cpp!!!	setWidth(in rectangleWidth : double) : void
+		try
+		{
+			if(rectangleWidth < 0)
+			{
+				throw rectangleWidth;
+			}
+			width = rectangleWidth;
+		}
+		catch(int ex)
+		{
+			cerr << "Exception!!" << endl;
+		}
+		
+!!!140170.cpp!!!	setHeight(in rectangleHeight : double) : void
+		
+		try
+		{
+			if(rectangleHeight < 0)
+			{
+				throw rectangleHeight;
+			}
+			height = rectangleHeight;
+		}
+		catch(int ex)
+		{
+			cerr << "Exception!!" << endl;
+		}
+		
+!!!140298.cpp!!!	setXCoordinate(in xLocation : double) : void
+		
+			xCoordinate = xLocation;
+!!!140426.cpp!!!	setYCoordinate(in yLocation : double) : void
+		
+			yCoordinate = yLocation;
+!!!140554.cpp!!!	operator +(in incrementSize : double) : Rectangle
+		double tempWidth;
+		double tempHeight;
+
+		tempWidth = width + incrementSize;//Adding scalar variable to our width and height.
+		tempHeight = height + incrementSize;//Adding scalar variable to our width and height.
+
+		return Rectangle(xCoordinate,yCoordinate, tempWidth, tempHeight); //returning new object.
+
+!!!140810.cpp!!!	operator ==(in shapeObject : Shape) : bool
+		cout << "Rectangle == operator" << endl;
+		const Rectangle *r = dynamic_cast <const Rectangle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(width * height == r->width * r->height)
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!140938.cpp!!!	operator !=(in shapeObject : Shape) : bool
+	 	cout << "Rectangle != operator" << endl;
+	 	const Rectangle *r = dynamic_cast <const Rectangle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() == r->width * r->height)
+	 		{
+	 			return false;
+	 		}
+	 		else
+	 		{
+	 			return true;
+	 		}
+	 	}
+!!!141066.cpp!!!	operator <(in shapeObject : Shape) : bool
+	 	const Rectangle *r = dynamic_cast <const Rectangle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() < (r->width * r->height))
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!141194.cpp!!!	operator >(in shapeObject : Shape) : bool
+	 	const Rectangle *r = dynamic_cast <const Rectangle *>(&shapeObject); //Downcasting
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area()> (r->width * r->height))
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!141322.cpp!!!	draw(inout inputFile : ofstream) : void
+		std::string fileWriter;
+		fileWriter = rectangleScript();
+		inputFile << fileWriter;
+		inputFile << "\n";
+!!!141450.cpp!!!	area() : double
+		return getWidth() * getHeight();
+!!!141578.cpp!!!	perimeter() : double
+		//calculatedPerimeter == (width + height) * 2;
+		return (getWidth() + getWidth()) * 2;
+!!!141962.cpp!!!	operator ++(in ignoreMe : int) : Shape
+		Shape *myShape = new Rectangle(getXCoordinate(),getYCoordinate(),getWidth(),getHeight());
+		xCoordinate++;
+		yCoordinate++;
+		return myShape;		
+!!!142090.cpp!!!	operator --() : Shape
+		xCoordinate--;
+		yCoordinate--;
+		Shape *myShape = new Rectangle(getXCoordinate(),getYCoordinate(),getWidth(),getHeight());
+		return myShape;
+!!!142218.cpp!!!	operator --(in ignoreMe : int) : Shape
+		Shape *myShape = new Rectangle(getXCoordinate(),getYCoordinate(),getWidth(),getHeight());
+		xCoordinate--;
+		yCoordinate--;
+		return myShape;
+!!!142346.cpp!!!	rectangleScript(in  : void) : std::string
+		std::string Script;
+		Script = std::string("<rect x=\"") + to_string(xCoordinate) + "\"" + " y=\"" + to_string(yCoordinate) + "\""
+		+ " width=\"" + to_string(width) + "\"" + " height=\"" + to_string(height) + "\"" + " stroke=\"red\"" +
+		 " fill=\"yellow\" " + " />";
+		//<rect x="10" y="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+		return Script;

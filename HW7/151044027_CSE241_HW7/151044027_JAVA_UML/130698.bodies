@@ -1,0 +1,10 @@
+class TRGUI
+!!!141194.java!!!	paintComponent(inout g : Graphics) : void
+			super.paintComponent(g);
+			g.setColor(Color.RED);
+			Triangle outerTri = new Triangle(0,0,0,0,0,0,600);
+			Rectangle innerRect = new Rectangle(0,0,20,20);
+			ComposedShape tryComp = new ComposedShape(outerTri, innerRect);
+			tryComp.optimalFit();
+			tryComp.draw(g);
+		

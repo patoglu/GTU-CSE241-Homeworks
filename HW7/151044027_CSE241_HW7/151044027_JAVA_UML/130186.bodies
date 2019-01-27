@@ -1,0 +1,12 @@
+class RRGUI
+!!!140426.java!!!	paintComponent(inout g : Graphics) : void
+			super.paintComponent(g);
+			g.setColor(Color.RED);
+			Rectangle outerRect = new Rectangle(0,0,600,600);
+			Rectangle innerRect = new Rectangle(0,0,20,20);
+			ComposedShape tryComp = new ComposedShape(outerRect, innerRect);
+			tryComp.optimalFit();
+			tryComp.draw(g);
+		
+		
+		

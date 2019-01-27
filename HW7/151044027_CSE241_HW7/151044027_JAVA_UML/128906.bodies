@@ -1,0 +1,79 @@
+class Triangle
+!!!141322.java!!!	Triangle()
+		this(0,0,0,0,0,0,10);
+!!!141450.java!!!	Triangle(in theX1Coordinate : double, in theY1Coordinate : double, in theX2Coordinate : double, in theY2Coordinate : double, in theX3Coordinate : double, in theY3Coordinate : double, in theLength : double)
+		setX1Coordinate(theX1Coordinate);
+		setX2Coordinate(theX2Coordinate);
+		setY1Coordinate(theY1Coordinate);
+		setY2Coordinate(theY2Coordinate);
+		setX3Coordinate(theX3Coordinate);
+		setY3Coordinate(theY3Coordinate);
+		setLength(theLength);
+!!!141578.java!!!	Triangle(in theX1Coordinate : double, in theY1Coordinate : double, in theX2Coordinate : double, in theY2Coordinate : double, in theX3Coordinate : double, in theY3Coordinate : double)
+		setX1Coordinate(theX1Coordinate);
+		setX2Coordinate(theX2Coordinate);
+		setY1Coordinate(theY1Coordinate);
+		setY2Coordinate(theY2Coordinate);
+		setX3Coordinate(theX3Coordinate);
+		setY3Coordinate(theY3Coordinate);
+		setLength(0);
+!!!141706.java!!!	area() : double
+		// TODO Auto-generated method stub
+		return (length * length * SQRT3) / 4.0;
+!!!141834.java!!!	perimeter() : double
+		// TODO Auto-generated method stub
+		return 3 * length;
+!!!141962.java!!!	increment() : void
+		setX1Coordinate(getX1Coordinate() + 1);
+		setY1Coordinate(getY1Coordinate() + 1);
+		setX2Coordinate(getX2Coordinate() + 1);
+		setY2Coordinate(getY2Coordinate() + 1);
+		setX3Coordinate(getX3Coordinate() + 1);
+		setY3Coordinate(getY3Coordinate() + 1);
+		
+!!!142090.java!!!	decrement() : void
+		setX1Coordinate(getX1Coordinate() - 1);
+		setY1Coordinate(getY1Coordinate() - 1);
+		setX2Coordinate(getX2Coordinate() - 1);
+		setY2Coordinate(getY2Coordinate() - 1);
+		setX3Coordinate(getX3Coordinate() - 1);
+		setY3Coordinate(getY3Coordinate() - 1);
+		
+!!!142218.java!!!	getX1Coordinate() : double
+		return x1Coordinate;
+!!!142346.java!!!	setX1Coordinate(in x1Coordinate : double) : void
+		this.x1Coordinate = x1Coordinate;
+!!!142474.java!!!	getY1Coordinate() : double
+		return y1Coordinate;
+!!!142602.java!!!	setY1Coordinate(in y1Coordinate : double) : void
+		this.y1Coordinate = y1Coordinate;
+!!!142730.java!!!	getX2Coordinate() : double
+		return x2Coordinate;
+!!!142858.java!!!	setX2Coordinate(in x2Coordinate : double) : void
+		this.x2Coordinate = x2Coordinate;
+!!!142986.java!!!	getY2Coordinate() : double
+		return y2Coordinate;
+!!!143114.java!!!	setY2Coordinate(in y2Coordinate : double) : void
+		this.y2Coordinate = y2Coordinate;
+!!!143242.java!!!	getX3Coordinate() : double
+		return x3Coordinate;
+!!!143370.java!!!	setX3Coordinate(in x3Coordinate : double) : void
+		this.x3Coordinate = x3Coordinate;
+!!!143498.java!!!	getY3Coordinate() : double
+		return y3Coordinate;
+!!!143626.java!!!	setY3Coordinate(in y3Coordinate : double) : void
+		this.y3Coordinate = y3Coordinate;
+!!!143754.java!!!	setLength(in theLength : double) : void
+		length = theLength;
+!!!143882.java!!!	getLength() : double
+		return length;
+!!!144010.java!!!	toString() : String
+		return "[TRIANGLE]" + " = " + "(" + this.getX1Coordinate() + " , " + this.getY1Coordinate() + " , " + this.getX2Coordinate() + " , " + this.getY2Coordinate() + " , "+ this.getX3Coordinate() + " , " + this.getY3Coordinate()  + ") " + "Length = " + this.getLength();
+!!!144138.java!!!	draw(inout graph : Graphics) : void
+		 graph.drawPolygon(new int[] {(int)x1Coordinate, (int)x2Coordinate, (int)x3Coordinate},new int[] {(int)y1Coordinate, (int)y2Coordinate, (int)y3Coordinate}, 3);
+!!!144266.java!!!	toCompare(inout genericShape : Shape) : int
+		if(this.area() > genericShape.area())
+		{
+			return 1;
+		}
+		return 0;

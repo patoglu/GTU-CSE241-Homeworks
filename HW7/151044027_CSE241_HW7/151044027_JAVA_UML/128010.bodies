@@ -1,0 +1,11 @@
+class CCGUI
+!!!128010.java!!!	paintComponent(inout g : Graphics) : void
+		
+			super.paintComponent(g);
+			g.setColor(Color.RED);
+			Circle outerCirc = new Circle(0,0,200);
+			Circle innerCirc = new Circle(0,0,20);
+			ComposedShape tryComp = new ComposedShape(outerCirc, innerCirc); 
+			tryComp.optimalFit(); 
+			tryComp.draw(g); 
+		

@@ -1,0 +1,12 @@
+class Point2D
+!!!133386.cpp!!!	Point2D()
+		twoDx = 10;
+		twoDy = 10;
+!!!133514.cpp!!!	setTwoDx(in theTwoDx : double) : void
+		twoDx = theTwoDx;
+!!!133642.cpp!!!	setTwoDy(in theTwoDy : double) : void
+		twoDy = theTwoDy;
+!!!133770.cpp!!!	getTwoDx() : double
+		return twoDx;
+!!!133898.cpp!!!	getTwoDy() : double
+		return twoDy;

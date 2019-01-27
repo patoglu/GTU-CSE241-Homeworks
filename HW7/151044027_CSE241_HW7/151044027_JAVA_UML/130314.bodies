@@ -1,0 +1,12 @@
+class RTGUI
+!!!140554.java!!!	paintComponent(inout g : Graphics) : void
+			super.paintComponent(g);
+			g.setColor(Color.RED);
+			Rectangle outerRect = new Rectangle(0,0,600,600);
+			Triangle innerTri = new Triangle(0,0,0,0,0,0,20);
+			ComposedShape tryComp = new ComposedShape(outerRect, innerTri);
+			tryComp.optimalFit();
+			tryComp.draw(g);
+		
+		
+		

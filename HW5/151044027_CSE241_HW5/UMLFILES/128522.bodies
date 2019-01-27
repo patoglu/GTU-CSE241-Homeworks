@@ -1,0 +1,193 @@
+class Triangle
+!!!144010.cpp!!!	Triangle()
+		setX1Coordinate(0); //default triangle function that sets zero to all coordinates.
+		setY1Coordinate(0);
+		setX2Coordinate(0);
+		setY2Coordinate(0);
+		setX3Coordinate(0);
+		setY3Coordinate(0);
+		setWidth(0);
+		calculatedArea = 0;
+		
+!!!144138.cpp!!!	Triangle(in theWidth : double)
+		setX1Coordinate(0); //default triangle function that sets zero to all coordinates.
+		setY1Coordinate(0);
+		setX2Coordinate(0);
+		setY2Coordinate(0);
+		setX3Coordinate(0);
+		setY3Coordinate(0);
+		width = theWidth;
+		calculatedArea = getWidth() * getWidth() * SQRT3;
+!!!144266.cpp!!!	Triangle(in x1 : double, in y1 : double, in x2 : double, in y2 : double, in x3 : double, in y3 : double)
+		setX1Coordinate(x1); // six parameter constructor that initializes 6 different dots.
+		setY1Coordinate(y1); 
+		setX2Coordinate(x2);
+		setY2Coordinate(y2);
+		setX3Coordinate(x3);
+		setY3Coordinate(y3);
+		calculatedArea = 0;
+!!!145290.cpp!!!	setWidth(in triangleWidth : double) : void
+		try
+		{
+			if(triangleWidth < 0)
+			{
+				throw triangleWidth;
+			}
+			width = triangleWidth;
+		}
+		catch(int ex)
+		{
+			cerr << "Exception!!" << endl;
+		}
+		
+!!!145418.cpp!!!	setX1Coordinate(in triangleX1 : double) : void
+		
+		
+			x1Coordinate = triangleX1;
+!!!145546.cpp!!!	setY1Coordinate(in triangleY1 : double) : void
+		
+			y1Coordinate = triangleY1;
+		
+!!!145674.cpp!!!	setX2Coordinate(in triangleX2 : double) : void
+		
+		
+			x2Coordinate = triangleX2;
+		
+!!!145802.cpp!!!	setY2Coordinate(in triangleY2 : double) : void
+		
+		
+			y2Coordinate = triangleY2;
+		
+!!!145930.cpp!!!	setX3Coordinate(in triangleX3 : double) : void
+		
+		
+		x3Coordinate = triangleX3;
+		
+!!!146058.cpp!!!	setY3Coordinate(in triangleY3 : double) : void
+		
+			y3Coordinate = triangleY3;		
+!!!146186.cpp!!!	operator +(in incrementSize : double) : Triangle
+		return Triangle(width + incrementSize);
+!!!146314.cpp!!!	operator -(in decrementSize : double) : Triangle
+		if(width < decrementSize)
+		{
+			cout << "Decrement size is bigger than width.." << endl;
+		}
+		else
+		{
+			return Triangle(width - decrementSize);
+		}
+!!!146442.cpp!!!	area() : double
+		return (getWidth() * getWidth() * SQRT3) / 4.0;
+!!!146570.cpp!!!	perimeter() : double
+		//calculatedPerimeter == (width + height) * 2;
+		return (getWidth() * 3);
+!!!146826.cpp!!!	operator ==(in shapeObject : Shape) : bool
+		cout << "Triangle == operator" << endl;
+		const Triangle *r = dynamic_cast <const Triangle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() == ((r->width * r->width) * SQRT3) / 4.0)
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!146954.cpp!!!	operator !=(in shapeObject : Shape) : bool
+	 	cout << "Triangle != operator" << endl;
+	 	const Triangle *r = dynamic_cast <const Triangle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() == ((r->width * r->width) * SQRT3) / 4.0)
+	 		{
+	 			return false;
+	 		}
+	 		else
+	 		{
+	 			return true;
+	 		}
+	 	}
+!!!147082.cpp!!!	operator <(in shapeObject : Shape) : bool
+	 	const Triangle *r = dynamic_cast <const Triangle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() < ((r->width * r->width) * SQRT3) / 4.0)
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!147210.cpp!!!	operator >(in shapeObject : Shape) : bool
+	 	const Triangle *r = dynamic_cast <const Triangle *>(&shapeObject); //Downcasting
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() > ((r->width * r->width) * SQRT3) / 4.0)
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!147466.cpp!!!	operator ++(in ignoreMe : int) : Shape
+		Shape *myShape = new Triangle(getX1Coordinate(),getY1Coordinate(),getX2Coordinate(),getY2Coordinate(),getX3Coordinate(),getY3Coordinate());
+		x1Coordinate++;
+		x2Coordinate++;
+		x3Coordinate++;
+		y1Coordinate++;
+		y2Coordinate++;
+		y3Coordinate++;
+		return myShape;		
+!!!147594.cpp!!!	operator --() : Shape
+		x1Coordinate++;
+		x2Coordinate++;
+		x3Coordinate++;
+		y1Coordinate++;
+		y2Coordinate++;
+		y3Coordinate++;
+		Shape *myShape = new Triangle(getX1Coordinate(),getY1Coordinate(),getX2Coordinate(),getY2Coordinate(),getX3Coordinate(),getY3Coordinate());
+		return myShape;
+!!!147722.cpp!!!	operator --(in ignoreMe : int) : Shape
+		Shape *myShape = new Triangle(getX1Coordinate(),getY1Coordinate(),getX2Coordinate(),getY2Coordinate(),getX3Coordinate(),getY3Coordinate());	
+		x1Coordinate++;
+		x2Coordinate++;
+		x3Coordinate++;
+		y1Coordinate++;
+		y2Coordinate++;
+		y3Coordinate++;
+		return myShape;
+!!!147850.cpp!!!	draw(inout inputFile : std::ofstream) : void
+		std::string fileWriter;
+		fileWriter = triangleScript();
+		inputFile << fileWriter;
+		inputFile << "\n";
+!!!147978.cpp!!!	triangleScript(in  : void) : std::string
+		string Script;
+		//<polygon points="50 160 55 180 70 180 "  stroke="green" fill="transparent" stroke-width="5"/>
+		Script = std::string("<polygon points=\"") + to_string(x1Coordinate) + " " + to_string(y1Coordinate) + " " + to_string(x2Coordinate) + " " + to_string(y2Coordinate) + " "
+		+ to_string(x3Coordinate) + " " + to_string(y3Coordinate) + "\"" + " stroke=\"green\"" +  " fill=\"brown\"" + "/>";
+
+		return Script;

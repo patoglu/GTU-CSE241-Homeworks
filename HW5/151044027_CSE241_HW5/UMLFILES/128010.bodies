@@ -1,0 +1,131 @@
+class Circle
+!!!128010.cpp!!!	Circle()
+		setXCoordinate(0);
+		setYCoordinate(0);
+		setRadius(10);
+		Circle::totalPerimeter += 2 * PI * radius;
+		Circle::totalArea +=  PI * radius * radius;
+		calculatedPerimeter = (getRadius() * 2 * PI);
+		calculatedArea = (getRadius() * getRadius() * PI);
+
+!!!128138.cpp!!!	Circle(in xLocation : double, in yLocation : double, in circleRadius : double)
+		setXCoordinate(xLocation);
+		setYCoordinate(yLocation);
+		setRadius(circleRadius);
+		calculatedPerimeter = (getRadius() * 2 * PI);
+		calculatedArea = (getRadius() * getRadius() * PI);		
+!!!128650.cpp!!!	setXCoordinate(in xLocation : double) : void
+		
+			xCoordinate = xLocation;
+!!!128778.cpp!!!	setYCoordinate(in yLocation : double) : void
+		
+		
+			yCoordinate = yLocation;
+!!!128906.cpp!!!	setRadius(in circleRadius : double) : void
+		try
+		{
+			if(circleRadius < 0)
+			{
+				throw circleRadius;
+			}
+			radius = circleRadius;
+		}
+		catch(int ex)
+		{
+			cerr << "Exception!!" << endl;
+		}
+!!!129290.cpp!!!	operator ==(in shapeObject : Shape) : bool
+		cout << "Circle == operator" << endl;
+		const Circle *r = dynamic_cast <const Circle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() == (r->radius * r->radius) * PI)
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!129418.cpp!!!	operator !=(in shapeObject : Shape) : bool
+	 	cout << "Circle != operator" << endl;
+	 	const Circle *r = dynamic_cast <const Circle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() == (r->radius * r->radius) * PI)
+	 		{
+	 			return false;
+	 		}
+	 		else
+	 		{
+	 			return true;
+	 		}
+	 	}
+!!!129546.cpp!!!	operator <(in shapeObject : Shape) : bool
+	 	const Circle *r = dynamic_cast <const Circle *>(&shapeObject);
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area() < (r->radius * r->radius) * PI)
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!129674.cpp!!!	operator >(in shapeObject : Shape) : bool
+	 	const Circle *r = dynamic_cast <const Circle *>(&shapeObject); //Downcasting
+	 	if(r == nullptr)
+	 	{
+	 		return false;
+	 	}
+	 	else
+	 	{
+	 		if(area()> (r->radius * r->radius) * PI)
+	 		{
+	 			return true;
+	 		}
+	 		else
+	 		{
+	 			return false;
+	 		}
+	 	}
+!!!129802.cpp!!!	area() : double
+		return getRadius() * getRadius() * PI;
+!!!129930.cpp!!!	perimeter() : double
+		//calculatedPerimeter == (width + height) * 2;
+		return (getRadius() * PI * 2);
+!!!130314.cpp!!!	operator ++(in ignoreMe : int) : Shape
+		Shape *myShape = new Circle(getXCoordinate(),getYCoordinate(),getRadius());
+		xCoordinate++;
+		yCoordinate++;
+		return myShape;		
+!!!130442.cpp!!!	operator --() : Shape
+		xCoordinate--;
+		yCoordinate--;
+		Shape *myShape = new Circle(getXCoordinate(),getYCoordinate(),getRadius());
+		return myShape;
+!!!130570.cpp!!!	operator --(in ignoreMe : int) : Shape
+		Shape *myShape = new Circle(getXCoordinate(),getYCoordinate(),getRadius());
+		xCoordinate--;
+		yCoordinate--;
+		return myShape;
+!!!130698.cpp!!!	draw(inout inputFile : std::ofstream) : void
+		std::string fileWriter;
+		fileWriter = circleScript();
+		inputFile << fileWriter;
+		inputFile << "\n";

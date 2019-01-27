@@ -1,0 +1,422 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="300" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="200.000000" height="200.000000" stroke="red" fill="yellow"  />
+<polygon points="10.000000 0.000000 0.000000 17.320508 20.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 0.000000 20.000000 17.320508 30.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 0.000000 20.000000 17.320508 40.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 0.000000 40.000000 17.320508 50.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 0.000000 40.000000 17.320508 60.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 0.000000 60.000000 17.320508 70.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 0.000000 60.000000 17.320508 80.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 0.000000 80.000000 17.320508 90.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 0.000000 80.000000 17.320508 100.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 0.000000 100.000000 17.320508 110.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 0.000000 100.000000 17.320508 120.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 0.000000 120.000000 17.320508 130.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 0.000000 120.000000 17.320508 140.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 0.000000 140.000000 17.320508 150.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 0.000000 140.000000 17.320508 160.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 0.000000 160.000000 17.320508 170.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 0.000000 160.000000 17.320508 180.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 0.000000 180.000000 17.320508 190.000000 0.000000" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 0.000000 180.000000 17.320508 200.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 17.320508 0.000000 34.641016 20.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 17.320508 20.000000 34.641016 30.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 17.320508 20.000000 34.641016 40.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 17.320508 40.000000 34.641016 50.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 17.320508 40.000000 34.641016 60.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 17.320508 60.000000 34.641016 70.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 17.320508 60.000000 34.641016 80.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 17.320508 80.000000 34.641016 90.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 17.320508 80.000000 34.641016 100.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 17.320508 100.000000 34.641016 110.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 17.320508 100.000000 34.641016 120.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 17.320508 120.000000 34.641016 130.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 17.320508 120.000000 34.641016 140.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 17.320508 140.000000 34.641016 150.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 17.320508 140.000000 34.641016 160.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 17.320508 160.000000 34.641016 170.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 17.320508 160.000000 34.641016 180.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 17.320508 180.000000 34.641016 190.000000 17.320508" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 17.320508 180.000000 34.641016 200.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 34.641016 0.000000 51.961524 20.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 34.641016 20.000000 51.961524 30.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 34.641016 20.000000 51.961524 40.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 34.641016 40.000000 51.961524 50.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 34.641016 40.000000 51.961524 60.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 34.641016 60.000000 51.961524 70.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 34.641016 60.000000 51.961524 80.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 34.641016 80.000000 51.961524 90.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 34.641016 80.000000 51.961524 100.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 34.641016 100.000000 51.961524 110.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 34.641016 100.000000 51.961524 120.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 34.641016 120.000000 51.961524 130.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 34.641016 120.000000 51.961524 140.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 34.641016 140.000000 51.961524 150.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 34.641016 140.000000 51.961524 160.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 34.641016 160.000000 51.961524 170.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 34.641016 160.000000 51.961524 180.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 34.641016 180.000000 51.961524 190.000000 34.641016" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 34.641016 180.000000 51.961524 200.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 51.961524 0.000000 69.282032 20.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 51.961524 20.000000 69.282032 30.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 51.961524 20.000000 69.282032 40.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 51.961524 40.000000 69.282032 50.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 51.961524 40.000000 69.282032 60.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 51.961524 60.000000 69.282032 70.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 51.961524 60.000000 69.282032 80.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 51.961524 80.000000 69.282032 90.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 51.961524 80.000000 69.282032 100.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 51.961524 100.000000 69.282032 110.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 51.961524 100.000000 69.282032 120.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 51.961524 120.000000 69.282032 130.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 51.961524 120.000000 69.282032 140.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 51.961524 140.000000 69.282032 150.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 51.961524 140.000000 69.282032 160.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 51.961524 160.000000 69.282032 170.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 51.961524 160.000000 69.282032 180.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 51.961524 180.000000 69.282032 190.000000 51.961524" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 51.961524 180.000000 69.282032 200.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 69.282032 0.000000 86.602540 20.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 69.282032 20.000000 86.602540 30.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 69.282032 20.000000 86.602540 40.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 69.282032 40.000000 86.602540 50.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 69.282032 40.000000 86.602540 60.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 69.282032 60.000000 86.602540 70.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 69.282032 60.000000 86.602540 80.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 69.282032 80.000000 86.602540 90.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 69.282032 80.000000 86.602540 100.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 69.282032 100.000000 86.602540 110.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 69.282032 100.000000 86.602540 120.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 69.282032 120.000000 86.602540 130.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 69.282032 120.000000 86.602540 140.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 69.282032 140.000000 86.602540 150.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 69.282032 140.000000 86.602540 160.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 69.282032 160.000000 86.602540 170.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 69.282032 160.000000 86.602540 180.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 69.282032 180.000000 86.602540 190.000000 69.282032" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 69.282032 180.000000 86.602540 200.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 86.602540 0.000000 103.923048 20.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 86.602540 20.000000 103.923048 30.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 86.602540 20.000000 103.923048 40.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 86.602540 40.000000 103.923048 50.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 86.602540 40.000000 103.923048 60.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 86.602540 60.000000 103.923048 70.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 86.602540 60.000000 103.923048 80.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 86.602540 80.000000 103.923048 90.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 86.602540 80.000000 103.923048 100.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 86.602540 100.000000 103.923048 110.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 86.602540 100.000000 103.923048 120.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 86.602540 120.000000 103.923048 130.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 86.602540 120.000000 103.923048 140.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 86.602540 140.000000 103.923048 150.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 86.602540 140.000000 103.923048 160.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 86.602540 160.000000 103.923048 170.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 86.602540 160.000000 103.923048 180.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 86.602540 180.000000 103.923048 190.000000 86.602540" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 86.602540 180.000000 103.923048 200.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 103.923048 0.000000 121.243557 20.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 103.923048 20.000000 121.243557 30.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 103.923048 20.000000 121.243557 40.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 103.923048 40.000000 121.243557 50.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 103.923048 40.000000 121.243557 60.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 103.923048 60.000000 121.243557 70.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 103.923048 60.000000 121.243557 80.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 103.923048 80.000000 121.243557 90.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 103.923048 80.000000 121.243557 100.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 103.923048 100.000000 121.243557 110.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 103.923048 100.000000 121.243557 120.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 103.923048 120.000000 121.243557 130.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 103.923048 120.000000 121.243557 140.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 103.923048 140.000000 121.243557 150.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 103.923048 140.000000 121.243557 160.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 103.923048 160.000000 121.243557 170.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 103.923048 160.000000 121.243557 180.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 103.923048 180.000000 121.243557 190.000000 103.923048" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 103.923048 180.000000 121.243557 200.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 121.243557 0.000000 138.564065 20.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 121.243557 20.000000 138.564065 30.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 121.243557 20.000000 138.564065 40.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 121.243557 40.000000 138.564065 50.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 121.243557 40.000000 138.564065 60.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 121.243557 60.000000 138.564065 70.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 121.243557 60.000000 138.564065 80.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 121.243557 80.000000 138.564065 90.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 121.243557 80.000000 138.564065 100.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 121.243557 100.000000 138.564065 110.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 121.243557 100.000000 138.564065 120.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 121.243557 120.000000 138.564065 130.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 121.243557 120.000000 138.564065 140.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 121.243557 140.000000 138.564065 150.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 121.243557 140.000000 138.564065 160.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 121.243557 160.000000 138.564065 170.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 121.243557 160.000000 138.564065 180.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 121.243557 180.000000 138.564065 190.000000 121.243557" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 121.243557 180.000000 138.564065 200.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 138.564065 0.000000 155.884573 20.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 138.564065 20.000000 155.884573 30.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 138.564065 20.000000 155.884573 40.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 138.564065 40.000000 155.884573 50.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 138.564065 40.000000 155.884573 60.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 138.564065 60.000000 155.884573 70.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 138.564065 60.000000 155.884573 80.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 138.564065 80.000000 155.884573 90.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 138.564065 80.000000 155.884573 100.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 138.564065 100.000000 155.884573 110.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 138.564065 100.000000 155.884573 120.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 138.564065 120.000000 155.884573 130.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 138.564065 120.000000 155.884573 140.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 138.564065 140.000000 155.884573 150.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 138.564065 140.000000 155.884573 160.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 138.564065 160.000000 155.884573 170.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 138.564065 160.000000 155.884573 180.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 138.564065 180.000000 155.884573 190.000000 138.564065" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 138.564065 180.000000 155.884573 200.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 155.884573 0.000000 173.205081 20.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 155.884573 20.000000 173.205081 30.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 155.884573 20.000000 173.205081 40.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 155.884573 40.000000 173.205081 50.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 155.884573 40.000000 173.205081 60.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 155.884573 60.000000 173.205081 70.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 155.884573 60.000000 173.205081 80.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 155.884573 80.000000 173.205081 90.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 155.884573 80.000000 173.205081 100.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 155.884573 100.000000 173.205081 110.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 155.884573 100.000000 173.205081 120.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 155.884573 120.000000 173.205081 130.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 155.884573 120.000000 173.205081 140.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 155.884573 140.000000 173.205081 150.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 155.884573 140.000000 173.205081 160.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 155.884573 160.000000 173.205081 170.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 155.884573 160.000000 173.205081 180.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 155.884573 180.000000 173.205081 190.000000 155.884573" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 155.884573 180.000000 173.205081 200.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 173.205081 0.000000 190.525589 20.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="10.000000 173.205081 20.000000 190.525589 30.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 173.205081 20.000000 190.525589 40.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="30.000000 173.205081 40.000000 190.525589 50.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 173.205081 40.000000 190.525589 60.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="50.000000 173.205081 60.000000 190.525589 70.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 173.205081 60.000000 190.525589 80.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="70.000000 173.205081 80.000000 190.525589 90.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 173.205081 80.000000 190.525589 100.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="90.000000 173.205081 100.000000 190.525589 110.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 173.205081 100.000000 190.525589 120.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="110.000000 173.205081 120.000000 190.525589 130.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 173.205081 120.000000 190.525589 140.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="130.000000 173.205081 140.000000 190.525589 150.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 173.205081 140.000000 190.525589 160.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="150.000000 173.205081 160.000000 190.525589 170.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 173.205081 160.000000 190.525589 180.000000 190.525589" stroke="green" fill="brown"/>
+
+<polygon points="170.000000 173.205081 180.000000 190.525589 190.000000 173.205081" stroke="green" fill="brown"/>
+
+<polygon points="190.000000 173.205081 180.000000 190.525589 200.000000 190.525589" stroke="green" fill="brown"/>
+
+</svg>

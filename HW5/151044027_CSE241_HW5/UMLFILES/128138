@@ -1,0 +1,248 @@
+format 221
+"HW5" // HW5::HW5
+  revision 1
+  modified_by 10 "Sushi"
+  // class settings
+  
+  classdiagramsettings member_max_width 0 end
+  
+  classcompositediagramsettings end
+  
+  usecasediagramsettings end
+  
+  sequencediagramsettings end
+  
+  collaborationdiagramsettings end
+  
+  objectdiagramsettings end
+  
+  objectcompositediagramsettings end
+  
+  componentdiagramsettings
+   end
+  
+  deploymentdiagramsettings
+   end
+  
+  statediagramsettings
+   end
+  
+  activitydiagramsettings
+   end
+  
+  cpp_h_dir "C:\\Users\\Sushi\\Desktop\\HW5 Updated\\HW5/"
+  cpp_src_dir "C:\\Users\\Sushi\\Desktop\\HW5 Updated\\HW5/"
+  deploymentview 128138 "HW5"
+    //deployment diagram settings
+    deploymentdiagramsettings
+     end
+    artifact 129034 "main"
+      stereotype "source"
+      cpp_src "int main()
+{
+	PolygonDyn::Point2D point;
+	PolygonDyn myPoly(point);
+
+	cout << myPoly << endl;
+	cout << point.getTwoDx() << endl;
+	cout << point.getTwoDy() << endl;
+	Rectangle myRectangle(0,0,10,21);
+	PolygonDyn yourPoly(myRectangle);
+
+	cout << myRectangle.area() << endl;
+	Rectangle yourRectangle(0,0,21,10);
+	Shape *myShape = new Rectangle(0,0,100,3.14);
+	Shape *yourShape = new Rectangle(0,0,20,10);
+	Shape *shapeOfYou = new Circle(0,0,10);
+
+	cout << \"Comparing two functions, yourShape and shapeOfYou Shape objects. They're Rectangle and Circle actually.\" << endl;
+	if(*myShape == *shapeOfYou)
+	{
+		cout <<\"True  \" << endl;
+	}
+	else
+	{
+		cout << myShape -> area() << endl;
+		cout << shapeOfYou -> area() << endl;
+		cout << \" ?\" << endl;
+	}
+	//Circle myCircle(0,0,10);
+
+	cout << \"RECT BEGIN\" << endl;
+	cout << *(++yourRectangle) << endl;
+	cout << *(++yourRectangle) << endl;
+	cout << *(++yourRectangle) << endl;
+	cout << *(++yourRectangle) << endl;
+	++yourRectangle;
+	cout << yourRectangle << endl;
+	cout << *(++yourRectangle) << endl;
+	yourRectangle--;
+	cout << yourRectangle << endl;
+	cout << \"RECT END\" << endl;
+
+	cout << \"CIRC BEGIN\" << endl;
+	Circle myCircle(0,0,20);
+	Circle yourCircle(10,10,20);
+	cout << yourCircle << endl;
+	cout << myCircle << endl;	
+
+	cout << *(yourCircle++) << endl;
+	cout << *(myCircle++) << endl;
+	cout << yourCircle << endl;
+	cout << myCircle << endl;	
+	cout << \"CIRC END\" << endl;	
+
+	if(myCircle == yourCircle)
+	{
+		cout << \"These goddamn circles are equal m88\" << endl;
+	}
+	else
+	{
+		cout <<\"mmm sorry\" << endl;
+	}
+
+	cout << \"TRI BEGIN\" << endl;
+	Triangle myTriangle(20);
+	Triangle yourTriangle(20);
+
+	cout << myTriangle << endl;
+	cout << yourTriangle << endl;
+	if(myTriangle == yourTriangle)
+	{
+		cout << \"Areas are equal \" << endl;
+	}
+	else
+	{
+		cout << \"Not really \" << endl;
+	}
+	myTriangle++;
+	yourTriangle++;
+	cout << myTriangle << endl;
+	cout << yourTriangle << endl;
+	cout << *(++myTriangle) << endl;
+	cout << *(++yourTriangle) << endl;
+	cout << \"TRI END\" << endl;
+
+
+	cout << \"VECT TEST BEGIN \" << endl;
+
+	PolygonVect vectPoly;
+	cout << vectPoly.getSize() << endl;
+	PolygonVect vectPolyRect(myTriangle);
+	cout << vectPolyRect << endl;
+	cout << vectPoly + vectPolyRect << endl;
+	vectPoly = vectPolyRect;
+	cout << \"Again \" << vectPoly << endl;
+
+	
+	ofstream filePointer1; //creating file pointers for different objects. 
+	filePointer1.open(\"RectangleRectangle.svg\");
+
+	ofstream filePointer2; //creating file pointers for different objects. 
+	filePointer2.open(\"RectangleTriangle.svg\");
+
+	ofstream filePointer3; //creating file pointers for different objects. 
+	filePointer3.open(\"RectangleCircle.svg\");
+
+	ofstream filePointer4; //creating file pointers for different objects. 
+	filePointer4.open(\"TriangleRectangle.svg\");
+
+	ofstream filePointer5; //creating file pointers for different objects. 
+	filePointer5.open(\"TriangleTriangle.svg\");
+
+	ofstream filePointer6; //creating file pointers for different objects. 
+	filePointer6.open(\"TriangleCircle.svg\");
+
+	ofstream filePointer7; //creating file pointers for different objects. 
+	filePointer7.open(\"CircleRectangle.svg\");
+
+	ofstream filePointer8; //creating file pointers for different objects. 
+	filePointer8.open(\"CircleTriangle.svg\");
+
+	ofstream filePointer9; //creating file pointers for different objects. 
+	filePointer9.open(\"CircleCircle.svg\");
+
+	ofstream filePointer10;
+	filePointer10.open(\"DefaultConsProduce.svg\");
+
+
+
+	Rectangle bigRectangle(0,0,200,100);
+	Rectangle smallRectangle(0,0,10,10);
+
+	Triangle bigTriangle(0,0,0,0,0,0);
+	bigTriangle.setWidth(200);
+	Triangle smallTriangle(0,0,0,0,0,0);
+	smallTriangle.setWidth(10);
+
+
+	Circle bigCircle(0,0,90);
+
+	Circle smallCircle(0,0,10);
+
+	
+	ComposedShape RectangleRectangle(bigRectangle, smallRectangle);
+
+
+	ComposedShape RectangleTriangle(bigRectangle, smallTriangle);
+
+
+	ComposedShape RectangleCircle(bigRectangle, smallCircle);
+
+
+	ComposedShape TriangleRectangle(bigTriangle, smallRectangle);
+
+
+	ComposedShape TriangleCircle(bigTriangle, smallCircle);
+
+
+	ComposedShape TriangleTriangle(bigTriangle, smallTriangle);
+
+
+	ComposedShape CircleRectangle(bigCircle, smallRectangle);
+
+
+	ComposedShape CircleCircle(bigCircle, smallCircle);
+
+
+	ComposedShape CircleTriangle(bigCircle, smallTriangle);
+
+	ComposedShape defaultOne;
+
+
+	RectangleRectangle.optimalFit();
+	RectangleTriangle.optimalFit();
+	RectangleCircle.optimalFit();
+	TriangleRectangle.optimalFit();
+	TriangleTriangle.optimalFit();
+	TriangleCircle.optimalFit();
+	CircleRectangle.optimalFit();
+	CircleTriangle.optimalFit();
+	CircleCircle.optimalFit();
+	defaultOne.optimalFit();
+
+
+	defaultOne.draw(filePointer10);
+	
+	RectangleRectangle.draw(filePointer1);
+	RectangleTriangle.draw(filePointer2);
+	RectangleCircle.draw(filePointer3);
+
+
+	TriangleRectangle.draw(filePointer4);
+	TriangleTriangle.draw(filePointer5);
+	TriangleCircle.draw(filePointer6);
+
+	CircleRectangle.draw(filePointer7);
+	CircleTriangle.draw(filePointer8);
+	CircleCircle.draw(filePointer9);
+
+
+	return 0;
+}
+"
+      associated_elems
+      end
+    end
+  end
+end

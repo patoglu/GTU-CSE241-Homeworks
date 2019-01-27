@@ -1,0 +1,17 @@
+---All exception handling made in Rectangle, Circle and Triangle's setter methods.
+
+---UML diagram project added with UML diagram PDF.
+
+---All source files are united under "PatogluShape"
+
+---Class hiearachy implemented as requested in homework.
+
+---Client code prepared with details.
+
+--- IN PDF it says << global operator can be used for printing shapes.
+--- I didn't want to put global << insertion operator to my code. I find a better solution (Check in Shape.h please.)
+--- It behaves like global function but it's friend of Shape class which is better.
+
+--- I had some troubles with global functions because of deadline.
+
+

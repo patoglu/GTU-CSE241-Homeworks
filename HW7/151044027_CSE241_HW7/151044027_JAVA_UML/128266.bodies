@@ -1,0 +1,45 @@
+class Circle
+!!!128906.java!!!	Circle()
+		this(0,0,10);
+!!!129034.java!!!	Circle(in theXCoordinate : double, in theYCoordinate : double, in theRadius : double)
+		setXCoordinate(theXCoordinate);
+		setYCoordinate(theYCoordinate);
+		setRadius(theRadius);
+!!!129162.java!!!	area() : double
+		// TODO Auto-generated method stub
+		return Math.PI * radius * radius;
+!!!129290.java!!!	perimeter() : double
+		// TODO Auto-generated method stub
+		return Math.PI * 2 * radius; 
+!!!129418.java!!!	increment() : void
+		xCoordinate++;
+		yCoordinate++;
+		
+!!!129546.java!!!	decrement() : void
+		xCoordinate--;
+		yCoordinate--;
+		
+!!!129674.java!!!	setRadius(in theRadius : double) : void
+		radius = theRadius;
+!!!129802.java!!!	setXCoordinate(in theXCoordinate : double) : void
+		xCoordinate = theXCoordinate;
+!!!129930.java!!!	setYCoordinate(in theYCoordinate : double) : void
+		yCoordinate = theYCoordinate;
+!!!130058.java!!!	getXCoordinate() : double
+		return xCoordinate;
+!!!130186.java!!!	getYCoordinate() : double
+		return yCoordinate;
+!!!130314.java!!!	getRadius() : double
+		return radius;
+!!!130442.java!!!	toString() : String
+		return "[CIRCLE]" + " = " + "(" + this.getXCoordinate() + " , " + this.getYCoordinate() + ") " + "Radius = " + this.getRadius();
+!!!130570.java!!!	draw(inout graph : Graphics) : void
+		 xCoordinate = xCoordinate-(radius/2);
+		 yCoordinate = yCoordinate-(radius/2);
+		 graph.drawOval((int)xCoordinate, (int)yCoordinate, (int)(radius), (int)(radius));
+!!!130698.java!!!	toCompare(inout genericShape : Shape) : int
+		if(this.area() > genericShape.area())
+		{
+			return 1;
+		}
+		return -1;
